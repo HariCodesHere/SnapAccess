@@ -33,16 +33,18 @@ Coming soon!
 
 ```
 snapaccess/
-├── main.py              # App entry point (GUI + logic)
-├── camera_manager.py    # Handles camera feed (easily switchable)
-├── recognizer.py        # Face recognition logic (train, match)
-├── register.py          # Register new users with captured photos
-├── database/
-│   ├── faces/           # Stored user face images
-│   └── users.json       # Metadata and labels
-├── logs/
-│   └── access_log.csv   # Access logs (optional)
-└── requirements.txt     # Python dependencies
+├── main.py                # Entry point: runs the GUI
+├── recognizer.py          # Face detection & recognition logic
+├── register.py            # Register new faces
+├── camera.py              # Handles camera initialization
+├── utils.py               # Common helper functions (optional)
+├── data/
+│   ├── faces/             # Folder storing captured face images
+│   └── users.json         # Maps user IDs to names
+├── README.md              # Project description
+├── requirements.txt       # Python dependencies
+└── logs.csv               # access log (timestamp, user)
+
 ```
 
 ---

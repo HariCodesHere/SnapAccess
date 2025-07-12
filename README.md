@@ -52,7 +52,7 @@ snapaccess/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/snapaccess.git
+git clone https://github.com/HariCodesHere/snapaccess.git
 cd snapaccess
 ```
 
